@@ -12,45 +12,125 @@ function Cards() {
             <CardItem
               src='/images/Totem.jpg'
               text='Totem Park'
-              label='1st Year Residence'
+              label='1st Year'
               path='/Residences'
             />
             <CardItem
             src='/images/Vanier.jpg'
             text='Vanier'
-            label='1st Year Residence'
+            label='1st Year'
             path='/Residences'
             />
-            <CardItems
+            <CardItem
               src='images/Orchard.png'
               text='Orchard Commons'
-              label='1st Year Residence'
+              label='1st Year'
               path='/Residences'
             />
           </ul>
           <br/>
           <br/>
-          <h1>Upper Year Residences</h1>
+          <h1>Upper Year and Graduate Residences</h1>
           <br/>
           <br/>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
+              src='images/Res_detail_Rits_exterior4_720x480.jpeg'
+              text='Ritsumeikan-UBC House'
+              label='2nd Year +'
+              path='/Residences'
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
+              src='images/waltergagetowers.jpeg'
+              text='Walter Gage Towers'
+              label='2nd Year +'
+              path='/Residences'
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
+              src='images/Fairview.jpeg'
+              text='Fairview Crescent'
+              label='2nd Year +'
+              path='/Residences'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/Marinedriveresidence.jpeg'
+              text='Marine Drive Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/Fraserhall.jpeg'
+              text='Fraser Hall Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/ponderosaCommons.jpeg'
+              text='Ponderosa Commons'
+              label='2nd Year +'
+              path='/Residences'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/thunderbirdres.jpeg'
+              text='Thunderbird Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/ionahouse.jpeg'
+              text='Iona House Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/tallwoodhouse.jpeg'
+              text='Brock Commons - Tallwood House Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/exchangeres1.jpeg'
+              text='Exchange Residence'
+              label='2nd Year +'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/orcansturgeon.jpeg'
+              text='Orca and Sturgeon Residences'
+              label='2nd Year +'
+              path='/Residences'
+            />
+          </ul>
+          <br/>
+          <br/>
+          <br/>
+          <h1>Graduate and Mature Students</h1>
+          <br/>
+          <br/>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/Acadiapark.jpeg'
+              text='Acadia Park Residence'
+              label='Mature Student Families'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/greencollege.jpeg'
+              text='Green College Residence'
+              label='Graduate Students and Postdoctoral Scholars'
+              path='/Residences'
+            />
+             <CardItem
+              src='images/stjohnscollege.jpeg'
+              text='St. John&apos;s College Residence'
+              label='Graduate Students, Postdoctoral Fellows and Visiting Scholars'
+              path='/Residences'
             />
           </ul>
         </div>

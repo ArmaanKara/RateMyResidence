@@ -5,9 +5,9 @@
     font-family: 'PT Sans', sans-serif;
   }
   
-  .home,
-  .services,
-  .products,
+  .Home,
+  .residences,
+  .contactus,
   .sign-up {
     display: flex;
     height: 90vh;
@@ -16,29 +16,29 @@
     font-size: 3rem;
   }
   
-  .services {
+  .residences {
     /* background-image: url('/images/img-2.jpg'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
   
-  .products {
+  .contactus {
     /* background-image: url('/images/img-1.jpg'); */
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
-  
+
   .sign-up {
-    /* background-image: url('/images/img-8.jpg'); */
+    background-image: url('images/UBC-Fountain-Horizontal-small-with-credit-2-1280x740.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color:white;
     font-size: 100px;
   }
